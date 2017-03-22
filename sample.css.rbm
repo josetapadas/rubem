@@ -1,13 +1,13 @@
 block :button do
   element :price do
-    style color: 'red'
+    color 'red'
 
     modifier :big do
-      style font_size: '10px'
+      font_size '10px'
     end
 
     modifier :small do
-      style font_size: '5px'
+      font_size: '5px'
     end
   end
 end
